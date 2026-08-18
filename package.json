@@ -1,6 +1,6 @@
 {
-  "name": "@yao-pkg/pkg",
-  "version": "6.23.0",
+  "name": "@vture/pkg",
+  "version": "6.23.0-vture.0",
   "description": "Package your Node.js project into an executable",
   "main": "lib-es5/index.js",
   "license": "MIT",
@@ -102,8 +102,8 @@
     "*.{js,css,md,json}": "prettier --write"
   },
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "restricted",
+    "provenance": false
   },
   "packageManager": "yarn@1.22.22",
   "engines": {
